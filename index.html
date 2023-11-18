@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    df-messenger{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+
+</style>
+<body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+        project-id="hackathon-team200"
+        agent-id="41c75dcf-8d23-41e3-a26f-cf22b0a65f46"
+        language-code="en"
+        id="chatbot"
+    >
+        <df-messenger-chat-bubble
+            chat-title="csm">
+        </df-messenger-chat-bubble>
+    </df-messenger>
+</body>
+</html>
